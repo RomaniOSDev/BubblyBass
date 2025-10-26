@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74AE77B82EACCCAD006DDF81 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 74AE77B72EACCCAD006DDF81 /* AppsFlyerLib */; };
-		74AE77BB2EACCDA5006DDF81 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 74AE77BA2EACCDA5006DDF81 /* OneSignalFramework */; };
+		746EC3722EAE1CB000779FA9 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 746EC3712EAE1CB000779FA9 /* OneSignalFramework */; };
+		746EC3752EAE1CBF00779FA9 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 746EC3742EAE1CBF00779FA9 /* AppsFlyerLib */; };
 		74AE77C12EACCDE6006DDF81 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77BF2EACCDE6006DDF81 /* LoaderViewController.swift */; };
 		74AE77C22EACCDE6006DDF81 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77BC2EACCDE6006DDF81 /* CheckLink.swift */; };
 		74AE77C32EACCDE6006DDF81 /* OneSignalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77BD2EACCDE6006DDF81 /* OneSignalService.swift */; };
@@ -37,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		5BAF7205E90C2695862E69AB /* Pods-BubblyBass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubblyBass.release.xcconfig"; path = "Target Support Files/Pods-BubblyBass/Pods-BubblyBass.release.xcconfig"; sourceTree = "<group>"; };
+		746EC36E2EAE1BD500779FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		746EFF2D2E9CF7B400A62436 /* BubblyBass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblyBass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AE77B52EACCC83006DDF81 /* BubblyBass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BubblyBass.entitlements; sourceTree = "<group>"; };
 		74AE77BC2EACCDE6006DDF81 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		74E1E0862EA23F8C008378E0 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		74E1E0892EA23F8C008378E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74E1E08A2EA23F8C008378E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		74E1E08B2EA23F8C008378E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74E1E08C2EA23F8C008378E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74E1E08E2EA23F8C008378E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74E1E0902EA23F8C008378E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,8 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74AE77BB2EACCDA5006DDF81 /* OneSignalFramework in Frameworks */,
-				74AE77B82EACCCAD006DDF81 /* AppsFlyerLib in Frameworks */,
+				746EC3722EAE1CB000779FA9 /* OneSignalFramework in Frameworks */,
+				746EC3752EAE1CBF00779FA9 /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +195,7 @@
 				74E1E0882EA23F8C008378E0 /* Views */,
 				74E1E0892EA23F8C008378E0 /* AppDelegate.swift */,
 				74E1E08A2EA23F8C008378E0 /* Assets.xcassets */,
-				74E1E08B2EA23F8C008378E0 /* Info.plist */,
+				746EC36E2EAE1BD500779FA9 /* Info.plist */,
 				74E1E08D2EA23F8C008378E0 /* LaunchScreen.storyboard */,
 				74E1E08F2EA23F8C008378E0 /* Main.storyboard */,
 				74E1E0902EA23F8C008378E0 /* SceneDelegate.swift */,
@@ -267,8 +267,8 @@
 			);
 			mainGroup = 746EFF242E9CF7B400A62436;
 			packageReferences = (
-				74AE77B62EACCCAD006DDF81 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
-				74AE77B92EACCDA5006DDF81 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				746EC3702EAE1CB000779FA9 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				746EC3732EAE1CBF00779FA9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
 			);
 			productRefGroup = 746EFF2E2E9CF7B400A62436 /* Products */;
 			projectDirPath = "";
@@ -587,15 +587,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		74AE77B62EACCCAD006DDF81 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.17.7;
-			};
-		};
-		74AE77B92EACCDA5006DDF81 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+		746EC3702EAE1CB000779FA9 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
 			requirement = {
@@ -603,18 +595,26 @@
 				minimumVersion = 5.2.14;
 			};
 		};
+		746EC3732EAE1CBF00779FA9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.7;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		74AE77B72EACCCAD006DDF81 /* AppsFlyerLib */ = {
+		746EC3712EAE1CB000779FA9 /* OneSignalFramework */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 74AE77B62EACCCAD006DDF81 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
-			productName = AppsFlyerLib;
-		};
-		74AE77BA2EACCDA5006DDF81 /* OneSignalFramework */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 74AE77B92EACCDA5006DDF81 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			package = 746EC3702EAE1CB000779FA9 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
 			productName = OneSignalFramework;
+		};
+		746EC3742EAE1CBF00779FA9 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746EC3732EAE1CBF00779FA9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
