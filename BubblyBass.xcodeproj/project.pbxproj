@@ -42,6 +42,7 @@
 		746EC3782EAE245400779FA9 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		746EC3792EAE245400779FA9 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		746EFF2D2E9CF7B400A62436 /* BubblyBass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblyBass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7472BFB12EAE27480067C815 /* BubblyBass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file; path = BubblyBass.entitlements; sourceTree = "<group>"; };
 		74E1E0732EA23F8C008378E0 /* BlueButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonView.swift; sourceTree = "<group>"; };
 		74E1E0742EA23F8C008378E0 /* CoinCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCountView.swift; sourceTree = "<group>"; };
 		74E1E0752EA23F8C008378E0 /* EnumFish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFish.swift; sourceTree = "<group>"; };
@@ -189,6 +190,7 @@
 		74E1E0922EA23F8C008378E0 /* BubblyBass */ = {
 			isa = PBXGroup;
 			children = (
+				7472BFB12EAE27480067C815 /* BubblyBass.entitlements */,
 				74E1E0772EA23F8C008378E0 /* helpers */,
 				74E1E0882EA23F8C008378E0 /* Views */,
 				74E1E0892EA23F8C008378E0 /* AppDelegate.swift */,
@@ -372,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BubblyBass/BubblyBass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BubblyBass/BubblyBass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
