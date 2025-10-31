@@ -33,6 +33,7 @@
 		74E1E0A42EA23F8C008378E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1E0892EA23F8C008378E0 /* AppDelegate.swift */; };
 		74E1E0A52EA23F8C008378E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1E0902EA23F8C008378E0 /* SceneDelegate.swift */; };
 		74E1E0A62EA23F8C008378E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1E0912EA23F8C008378E0 /* ViewController.swift */; };
+		74F8200E2EB5578100617FA1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8200D2EB5578100617FA1 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +43,7 @@
 		746EC3782EAE245400779FA9 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		746EC3792EAE245400779FA9 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		746EFF2D2E9CF7B400A62436 /* BubblyBass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblyBass.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7472BFB12EAE27480067C815 /* BubblyBass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file; path = BubblyBass.entitlements; sourceTree = "<group>"; };
+		7472BFB12EAE27480067C815 /* BubblyBass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BubblyBass.entitlements; sourceTree = "<group>"; };
 		74E1E0732EA23F8C008378E0 /* BlueButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonView.swift; sourceTree = "<group>"; };
 		74E1E0742EA23F8C008378E0 /* CoinCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCountView.swift; sourceTree = "<group>"; };
 		74E1E0752EA23F8C008378E0 /* EnumFish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFish.swift; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		74E1E08E2EA23F8C008378E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74E1E0902EA23F8C008378E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74E1E0912EA23F8C008378E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74F8200D2EB5578100617FA1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AA128D8FD92FDFCE00B190EF /* Pods_BubblyBass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubblyBass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD31B47CBC6E73A9271E90B7 /* Pods-BubblyBass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubblyBass.debug.xcconfig"; path = "Target Support Files/Pods-BubblyBass/Pods-BubblyBass.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 				746EC3772EAE245400779FA9 /* OneSignalService.swift */,
 				746EC3782EAE245400779FA9 /* InternetViewController.swift */,
 				746EC3792EAE245400779FA9 /* LoaderViewController.swift */,
+				74F8200D2EB5578100617FA1 /* Extensions.swift */,
 			);
 			path = LoadingView;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				74E1E09C2EA23F8C008378E0 /* CardSearchGameView.swift in Sources */,
 				74E1E09D2EA23F8C008378E0 /* CardSearchGameViewModel.swift in Sources */,
 				74E1E09E2EA23F8C008378E0 /* SimpleLevelView.swift in Sources */,
+				74F8200E2EB5578100617FA1 /* Extensions.swift in Sources */,
 				74E1E09F2EA23F8C008378E0 /* FisingGameView.swift in Sources */,
 				746EC37B2EAE245400779FA9 /* CheckLink.swift in Sources */,
 				746EC37C2EAE245400779FA9 /* InternetViewController.swift in Sources */,
@@ -376,7 +380,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BubblyBass/BubblyBass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BubblyBass/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -389,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ott.bubbl7b4s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -414,7 +418,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BubblyBass/BubblyBass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BubblyBass/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -427,7 +431,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ott.bubbl7b4s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
